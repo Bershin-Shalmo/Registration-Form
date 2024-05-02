@@ -1,0 +1,61 @@
+body{
+    background: rgb(34,193,195);
+    margin: 0;
+}
+
+#form{
+    width: 400px;
+    margin: 20vh auto 0 auto;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(34,193,195);
+}
+
+#form button{
+    background-color: rgb(34,193,195);
+    color: white;
+    border: 1px solid rgb(34,193,195);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.inputGroup input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid rgb(34,193,195);
+}
+
+.inputGroup input:focus{
+    outline: 0;
+}
+
+.inputGroup .error{
+    color: rgb(242, 18, 18);
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.inputGroup.success input{
+    border-color: green;
+}
+
+.inputGroup.error input{
+    border-color: red;
+}
